@@ -29,8 +29,8 @@ setTimeout(function(){
     console.log(userNumbers);
     
     compareAnswers(randomNumbers, userNumbers);
-    
-},3000);
+
+},30000);
 
 
 
