@@ -28,33 +28,6 @@ for(let i=0; i<slides.length; i++)	{
 
 const slideElements = document.querySelectorAll('.slide');
 let currentSlide = slideElements[currentSlideIndex];
-//slideElements[currentSlideIndex].classList.add('active');
-
-//slideElements[currentSlideIndex].classList.add('active');
-
-//const nextElement = document.querySelector('.arrow-next');
-//const prevElement = document.querySelector('.arrow-prev');
-
-/*nextElement.addEventListener('click', function(){
-	console.log('go next');
-	const lastIndex = slideElements.length - 1;
-
-	const currentSlide = slideElements[currentSlideIndex];
-	currentSlide.classList.remove('active');
-
-	if(currentSlideIndex < lastIndex)	{
-
-		currentSlideIndex++;
-	}else{
-		currentSlideIndex = 0;
-	}
-	//console.log('slide corrente', currentSlideIndex);
-	
-	//currentSlideIndex ++;
-	const nextSlide = slideElements[currentSlideIndex];
-	nextSlide.classList.add('active');
-	//console.log('prossima slide', currentSlideIndex, currentSlide);
-})*/
 
 
 
