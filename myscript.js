@@ -8,14 +8,32 @@ let guessedNumbers = [];
 
 
 
+
 generateRandomArray();
 
 alert("memorize the following 5 numbers: "+ randomNumbers);
 console.log("your numbers: "+userNumbers);
 
-askUserNumbers();
+setTimeout(function(){
+    number1 = prompt("enter the first number:");
+    number1 = parseInt(number1);
+    number2 = prompt("enter the second number:");
+    number2 = parseInt(number2);
+    number3 = prompt("enter the third number:");
+    number3 = parseInt(number3);
+    number4 = prompt("enter the fourth number:");
+    number4 = parseInt(number4);
+    number5 = prompt("enter the fifth number:");
+    number5 = parseInt(number5);
+    userNumbers.push(number1, number2, number3, number4, number5)
+    console.log(userNumbers);
+    
+    compareAnswers(randomNumbers, userNumbers);
+    
+},3000);
 
-compareAnswers(randomNumbers, userNumbers);
+
+
 
 
 
