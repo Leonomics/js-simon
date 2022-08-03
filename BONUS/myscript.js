@@ -29,11 +29,11 @@ for(let i=0; i<slides.length; i++)	{
 const slideElements = document.querySelectorAll('.slide');
 let currentSlide = slideElements[currentSlideIndex];
 
+slideElements[currentSlideIndex].classList.add('active');
 
-
-setTimeout(function(){
+//setTimeout(function(){
     
-    slideElements[currentSlideIndex].classList.add('active');
+    //slideElements[currentSlideIndex].classList.add('active');
     
     setInterval(function(){
     const lastIndex = slideElements.length - 1;
@@ -54,7 +54,7 @@ setTimeout(function(){
     }
 
 
-}, 3000)},3000);
+}, 3000)//},3000);
 
 
 
